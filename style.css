@@ -16,3 +16,32 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+strong {
+    font-weight: 400;
+}
+
+
+
+/* Header */
+.header {
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header-title {
+    margin: 25px 0;
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+}
+.header-teamname {
+    display: block;
+    margin: 15px 0;
+}
+
+.header-content {
+    margin: 15px 0;
+    font-weight: 500;
+}
