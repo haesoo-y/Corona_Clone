@@ -45,3 +45,53 @@ strong {
     margin: 15px 0;
     font-weight: 500;
 }
+
+/* Scroll Section */
+
+.scroll-graphic {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.graphic-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: 0.5s;
+    will-change: opacity;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.scene {
+    max-height: 100vh;
+}
+
+.four-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.four-scene {
+    padding: 5px;
+    max-width: 50%;
+    max-height: 50vh;
+}
+
+.fire-images {
+    position: relative;
+}
+
+.fire-scene {
+    position: absolute;
+}
