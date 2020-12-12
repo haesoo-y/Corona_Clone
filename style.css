@@ -95,3 +95,20 @@ strong {
 .fire-scene {
     position: absolute;
 }
+
+.scroll-text {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.text-item {
+    margin-bottom: 60vh;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: rgba(0,0,0,0.3) 0 0 3px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
