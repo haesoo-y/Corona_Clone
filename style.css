@@ -112,3 +112,18 @@ strong {
 .line-through {
     text-decoration: line-through;
 }
+
+/* Normal Section */
+.normal-section {
+    max-width: 630px;
+    margin: 10px auto;
+}
+
+.wiki-link {
+    color: gray;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 20px 0;
+}
