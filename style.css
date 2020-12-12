@@ -1,0 +1,18 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    color: dodgerblue;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
