@@ -142,3 +142,31 @@ strong {
 }
 
 /* Footer */
+footer {
+    padding: 40px 0;
+    background-color: gray;
+}
+
+.footer-content {
+    margin: 0 50px;
+}
+
+.footer-title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link-item {
+    width: 100%;
+    padding-right:30px;
+    margin-right: 10px;
+    border-right: 1px solid white;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
