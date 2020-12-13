@@ -60,7 +60,7 @@
             boundingRect = textitem.getBoundingClientRect();
             
             if (boundingRect.top > window.innerHeight * 0.1 && 
-                boundingRect.top < window.innerHeight * 0.8) {
+                boundingRect.top < window.innerHeight * 0.85) {
                     inactivated(currentItem.dataset.action);
                     currentItem = graphicElems[textitem.dataset.index];
                     activated(currentItem.dataset.action);
