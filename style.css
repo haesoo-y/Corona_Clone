@@ -84,14 +84,20 @@ strong {
 
 .four-images {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+}
+
+.four-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .four-scene {
     padding: 5px;
     max-width: 50%;
-    max-height: 50vh;
+    max-height: 45vh;
 }
 
 .fire-images {
