@@ -5,7 +5,7 @@
         if(a) {
             for (let i = 0; i < FireWorks.length; i++) {
                 FireWorks[i].style.opacity = '1';
-                FireWorks[i].style.transition = `1s ${i}s`;
+                FireWorks[i].style.transition = `1s cubic-bezier(0,.75,.5,1) ${i+0.5}s`;
             }
         }else {
             for (let i = 0; i < FireWorks.length; i++) {
@@ -73,7 +73,7 @@
     window.addEventListener('load', function(){
         setTimeout(function(){
             scrollTo(0,0)
-        },100)
+        },50)
     })
 
     activated();
