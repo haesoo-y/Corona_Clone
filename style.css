@@ -207,3 +207,86 @@ footer {
     font-weight: 400;
     text-decoration: none;
 }
+
+
+
+
+
+/* Mobile Responsive */
+@media screen and (max-width : 768px) {
+
+
+/* Reset */
+    p {
+        font-size: 12px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+/* Header */
+    .header-title {
+        margin: 15px 0;
+        font-size: 20px;
+    }
+    .header-teamname {
+        font-size : 12px;
+        margin: 10px 0;
+    }
+
+    .header-content {
+        margin: 0;
+    }
+
+/* Scroll Section */
+    .text-item {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+/* Normal Section */
+    .normal-section {
+        margin: 5px auto;
+    }
+
+    .normal-item {
+        margin: 30px 0;
+    }
+
+    .normal-item h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+
+    .maker {
+        margin: 10px 0;
+        padding: 15px 0;
+    }
+
+
+/* Footer */
+    footer {
+        padding: 20px 0;
+    }
+
+    .footer-content {
+        margin: 0 25px;
+    }
+
+    .footer-title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+
+    .footer-link-item {
+        font-size: 11px;
+        padding-right:15px;
+        margin-right: 5px;
+    }
+
+
+}

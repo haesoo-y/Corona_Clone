@@ -26,7 +26,6 @@
         // 관찰대상이 눈에 보일 때 실행
     })
 
-    // for (let i = 0; i< FireWorks.length; i++) {
         
     // }
 
