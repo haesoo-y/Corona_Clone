@@ -140,6 +140,10 @@ strong {
     box-shadow: rgba(0,0,0,0.3) 0 0 3px;
 }
 
+.text-item:last-child {
+    margin-bottom: 90vh;
+}
+
 .line-through {
     text-decoration: line-through;
 }
