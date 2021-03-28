@@ -1,5 +1,9 @@
 # Exchange Student in Japan
 
+### 목적
+ - 교환학생 당시의 일상을 기록하기위해 본인의 사진과 그림으로 애니메이션 구현
+ - 공부한 자바스크립트를 직접 실습하고 활용
+
 ### 미리보기
 - Desktop size
 
@@ -10,6 +14,7 @@
 
 ![mobile](https://user-images.githubusercontent.com/71266602/102006756-e7cf1980-3d66-11eb-9b54-1c3f093a2384.gif)
 
+- [바로가기](https://harryproject02.netlify.app/)
 
 ### 상세내용
 1. BBC 비주얼 저널리즘의 [코로나 기사 페이지](https://www.bbc.com/korean/resources/idt-48d3c9a7-4063-4289-9726-611b5ea9d7b5)를 보고 비슷하게 구현함.
@@ -46,7 +51,6 @@
 
 
 7. Netlify에 깃허브와 연동시켜 디플로이 하였음.
- - [이동하기](https://harryproject02.netlify.app/)
 
 
 ### 참고
