@@ -77,5 +77,10 @@
 
     activated();
 
+    window.onload = function(){
+        const loadingSection = document.querySelector(".loading-section");
+        loadingSection.style.display = "none";
+    }
+
 
 })();
