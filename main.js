@@ -79,7 +79,9 @@
 
     window.onload = function(){
         const loadingSection = document.querySelector(".loading-section");
+        const bodyLoading = document.querySelector(".on-loading");
         loadingSection.style.display = "none";
+        bodyLoading.classList.remove("on-loading");
     }
 
 

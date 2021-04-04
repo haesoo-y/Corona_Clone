@@ -23,6 +23,12 @@ strong {
 }
 
 /* Loading */
+.on-loading {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .loading-section {
     position: fixed;
     width: 100vw;
